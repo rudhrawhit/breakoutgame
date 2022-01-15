@@ -5,7 +5,7 @@ window.preload = function () {
 
   p5Inst._predefinedSpriteAnimations = {};
   p5Inst._pauseSpriteAnimationsByDefault = false;
-  var animationListJSON = {"orderedKeys":["29a7c9c1-84bf-4822-8dde-f271ad963b8f","155276c2-7b72-4aeb-906a-7e03077d614b","3525ea99-86f8-4f50-9130-d1658ecb220c","16e477f3-a676-45ff-a204-9b2cefc7e3b8","6cb92cd3-6d48-4003-8029-13ef26733da8","42167912-68b0-45bf-bbd9-f151b6194f84","344a4eaf-302b-4cbb-a019-da6ddb4e9e1c","8ca94b8c-16c0-4902-a48c-fb864527fe2a","573901bc-4a58-4755-8416-278f0f7603a8","898552c1-ed2a-4d17-87b3-a7eeef4cc7ac","d4652193-5260-4756-8dab-28ce2a33978f","5f9b303f-4410-471c-a379-866e79b20931"],"propsByKey":{"29a7c9c1-84bf-4822-8dde-f271ad963b8f":{"name":"g","sourceUrl":null,"frameSize":{"x":70,"y":17},"frameCount":1,"looping":true,"frameDelay":12,"version":"7DPonlN1uyDUyft7ZL62V39fO4lnai87","categories":["video_games"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":70,"y":17},"rootRelativePath":"assets/29a7c9c1-84bf-4822-8dde-f271ad963b8f.png"},"155276c2-7b72-4aeb-906a-7e03077d614b":{"name":"ground_stone_small_1","sourceUrl":"assets/api/v1/animation-library/gamelab/weXjtt4swzsNYqcAiwNklQdakU_thK3b/category_video_games/ground_stone_small.png","frameSize":{"x":200,"y":100},"frameCount":1,"looping":true,"frameDelay":2,"version":"weXjtt4swzsNYqcAiwNklQdakU_thK3b","categories":["video_games"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":200,"y":100},"rootRelativePath":"assets/api/v1/animation-library/gamelab/weXjtt4swzsNYqcAiwNklQdakU_thK3b/category_video_games/ground_stone_small.png"},"3525ea99-86f8-4f50-9130-d1658ecb220c":{"name":"st","sourceUrl":null,"frameSize":{"x":100,"y":100},"frameCount":1,"looping":true,"frameDelay":12,"version":"w0c6nf7Lzsy4rzEx.BBZJ3qnfzdXvxs.","categories":["video_games"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":100,"y":100},"rootRelativePath":"assets/3525ea99-86f8-4f50-9130-d1658ecb220c.png"},"16e477f3-a676-45ff-a204-9b2cefc7e3b8":{"name":"rockGrass_1","sourceUrl":null,"frameSize":{"x":108,"y":239},"frameCount":1,"looping":true,"frameDelay":12,"version":"QX3eEv9D2urSLhcJNtpnqWpsEqf8Sbir","categories":["video_games"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":108,"y":239},"rootRelativePath":"assets/16e477f3-a676-45ff-a204-9b2cefc7e3b8.png"},"6cb92cd3-6d48-4003-8029-13ef26733da8":{"name":"r","sourceUrl":null,"frameSize":{"x":30,"y":67},"frameCount":1,"looping":true,"frameDelay":12,"version":"JQVYQlyWcjNaWIQZlFyZA8VF4aCtPcRI","categories":["video_games"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":30,"y":67},"rootRelativePath":"assets/6cb92cd3-6d48-4003-8029-13ef26733da8.png"},"42167912-68b0-45bf-bbd9-f151b6194f84":{"name":"farm","sourceUrl":null,"frameSize":{"x":400,"y":400},"frameCount":1,"looping":true,"frameDelay":12,"version":"GJNlB2Qg35wPRm20jZGpbiY8.I25in2R","categories":["backgrounds"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":400,"y":400},"rootRelativePath":"assets/42167912-68b0-45bf-bbd9-f151b6194f84.png"},"344a4eaf-302b-4cbb-a019-da6ddb4e9e1c":{"name":"coin","sourceUrl":null,"frameSize":{"x":21,"y":21},"frameCount":12,"looping":true,"frameDelay":12,"version":".2X47o7DyIHjVxCpJtozWnrHV9gedbrU","categories":["board_games_and_cards"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":63,"y":84},"rootRelativePath":"assets/344a4eaf-302b-4cbb-a019-da6ddb4e9e1c.png"},"8ca94b8c-16c0-4902-a48c-fb864527fe2a":{"name":"pop","sourceUrl":null,"frameSize":{"x":34,"y":47},"frameCount":1,"looping":true,"frameDelay":12,"version":"jvJSetK7OYo2yF_3B22PFOf5g6VZwIe5","loadedFromSource":true,"saved":true,"sourceSize":{"x":34,"y":47},"rootRelativePath":"assets/8ca94b8c-16c0-4902-a48c-fb864527fe2a.png"},"573901bc-4a58-4755-8416-278f0f7603a8":{"name":"pop1","sourceUrl":null,"frameSize":{"x":34,"y":47},"frameCount":1,"looping":true,"frameDelay":12,"version":"pJ5h8kFHEbQ0QJ0GFmFXVaBtTx3QgVug","loadedFromSource":true,"saved":true,"sourceSize":{"x":34,"y":47},"rootRelativePath":"assets/573901bc-4a58-4755-8416-278f0f7603a8.png"},"898552c1-ed2a-4d17-87b3-a7eeef4cc7ac":{"name":"in","sourceUrl":null,"frameSize":{"x":50,"y":50},"frameCount":1,"looping":true,"frameDelay":12,"version":"ShD.qrs.jjPqOHMcjEudGTDrAtlQI6vs","loadedFromSource":true,"saved":true,"sourceSize":{"x":50,"y":50},"rootRelativePath":"assets/898552c1-ed2a-4d17-87b3-a7eeef4cc7ac.png"},"d4652193-5260-4756-8dab-28ce2a33978f":{"name":"1","sourceUrl":null,"frameSize":{"x":50,"y":50},"frameCount":1,"looping":true,"frameDelay":12,"version":"fJjdd.ZlTSvJ6S7k2EUF9oBJzGBNdu0Y","loadedFromSource":true,"saved":true,"sourceSize":{"x":50,"y":100},"rootRelativePath":"assets/d4652193-5260-4756-8dab-28ce2a33978f.png"},"5f9b303f-4410-471c-a379-866e79b20931":{"name":"popo","sourceUrl":null,"frameSize":{"x":35,"y":44},"frameCount":1,"looping":true,"frameDelay":12,"version":"JQRk30KftrCp1AxA2v2dJIIZEBPt9hsB","loadedFromSource":true,"saved":true,"sourceSize":{"x":35,"y":44},"rootRelativePath":"assets/5f9b303f-4410-471c-a379-866e79b20931.png"}}};
+  var animationListJSON = {"orderedKeys":["6a94855d-3343-40d1-afb9-7433e9ebe9b7","8ef2763e-5f7a-4f3a-95c9-6dd012be4e31","f73391f0-95d5-4ddf-9c6f-67b620107c36","ceaacfe9-144e-4012-b1d4-0499fcd4a0a0"],"propsByKey":{"6a94855d-3343-40d1-afb9-7433e9ebe9b7":{"name":"paddel","sourceUrl":null,"frameSize":{"x":58,"y":38},"frameCount":5,"looping":true,"frameDelay":12,"version":"QgiJZLzc8P8zwhLj1oi1rz1y0mBxj8SH","categories":["retro"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":116,"y":114},"rootRelativePath":"assets/6a94855d-3343-40d1-afb9-7433e9ebe9b7.png"},"8ef2763e-5f7a-4f3a-95c9-6dd012be4e31":{"name":"ball","sourceUrl":null,"frameSize":{"x":33,"y":33},"frameCount":4,"looping":true,"frameDelay":12,"version":"lLeBZveVaNKE9NwVZxKDMjX9EwW70oQ0","categories":["sports"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":66,"y":66},"rootRelativePath":"assets/8ef2763e-5f7a-4f3a-95c9-6dd012be4e31.png"},"f73391f0-95d5-4ddf-9c6f-67b620107c36":{"name":"red","sourceUrl":null,"frameSize":{"x":35,"y":50},"frameCount":1,"looping":true,"frameDelay":12,"version":"wZmu3Nagz1f7wtFtCGFAbvai0wN9Sxyy","categories":["fantasy"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":35,"y":50},"rootRelativePath":"assets/f73391f0-95d5-4ddf-9c6f-67b620107c36.png"},"ceaacfe9-144e-4012-b1d4-0499fcd4a0a0":{"name":"blue","sourceUrl":null,"frameSize":{"x":35,"y":50},"frameCount":1,"looping":true,"frameDelay":12,"version":"rOB9eQAwifQWVCa9m.K1uAmUAOAC.M_Z","categories":["fantasy"],"loadedFromSource":true,"saved":true,"sourceSize":{"x":35,"y":50},"rootRelativePath":"assets/ceaacfe9-144e-4012-b1d4-0499fcd4a0a0.png"}}};
   var orderedKeys = animationListJSON.orderedKeys;
   var allAnimationsSingleFrame = false;
   orderedKeys.forEach(function (key) {
@@ -34,217 +34,203 @@ window.preload = function () {
     }
 // -----
 
-var lives=0
-textSize(20)
-fill("red")
-var player=createSprite(10,250,10,10)
-player.setAnimation("pop")
-var ground=createSprite(50,350,100,100)
-ground.setAnimation("st")
-var platform1=createSprite(150,275,70,15)
-platform1.setAnimation("g")
-var platform2=createSprite(230,225,70,15)
-platform2.setAnimation("g")
-var platform3=createSprite(320,175,70,15)
-platform3.setAnimation("g")
-var spike1=createSprite(125,370,50,80)
-spike1.setAnimation("r")
-var spike2=createSprite(150,370,50,80)
-spike2.setAnimation("r")
-var spike3=createSprite(175,370,50,80)
-spike3.setAnimation("r")
-var spike4=createSprite(200,370,50,80)
-spike4.setAnimation("r")
-var spike5=createSprite(225,370,50,80)
-spike5.setAnimation("r")
-var spike6=createSprite(250,370,50,80)
-spike6.setAnimation("r")
-var spike7=createSprite(275,370,50,80)
-spike7.setAnimation("r")
-var spike8=createSprite(300,370,50,80)
-spike8.setAnimation("r")
-var spike9=createSprite(325,370,50,80)
-spike9.setAnimation("r")
-var spike10=createSprite(350,370,50,80)
-spike10.setAnimation("r")
-var spike11=createSprite(375,370,50,80)
-spike11.setAnimation("r")
-var point=createSprite(150,250,20,20)
-point.setAnimation("coin")
-var point1=createSprite(225,200,20,20)
-point1.setAnimation("coin")
-var point2=createSprite(325,150,20,20)
-point2.setAnimation("coin")
-var p=createSprite(150,100,0.1,0.1)
+//creating plddle and the ball
+var paddle = createSprite(200, 375, 50, 15);
+paddle.setAnimation("paddel")
+var ball = createSprite(200, 250, 20, 20);
+ball.setAnimation("ball")
+var score=0;
+var gameState ="serve";
 
-var r=createSprite(150,325,0.1,0.1)
+//first row of boxes
+var box1 = createSprite(25, 75, 50, 50);
+box1.setAnimation("red")
+var box2 = createSprite(75, 75, 50, 50);
+box2.setAnimation("blue");
+var box3 = createSprite(125, 75, 50, 50);
+box3.setAnimation("red");
+var box4 = createSprite(175, 75, 50, 50);
+box4.setAnimation("blue");
+var box5 = createSprite(225, 75, 50, 50);
+box5.setAnimation("red");
+var box6 = createSprite(275, 75, 50, 50);
+box6.setAnimation("blue")
+;
+var box7 = createSprite(325, 75, 50, 50);
+box7.shapeColor="red";
+var box8 = createSprite(375, 75, 50, 50);
+box8.shapeColor="blue";
 
-var p1=createSprite(225,50,0.1,0.1)
-
-var r1=createSprite(225,325,0.01,0.01)
-
-var p2=createSprite(300,50,0.01,0.01)
-
-var r2=createSprite(300,325,0.01,0.01)
-
-var gameState="serve"
-
-var button=createSprite(375,25,50,50)
-button.setAnimation("in")
-point1.velocityY=-2
-point2.velocityY=-2
-
-player.velocityY=3
-
+//second row of boxes-
+var box9 = createSprite(25, 125, 50, 50);
+box9.shapeColor="blue";
+var box10 = createSprite(75, 125, 50, 50);
+box10.shapeColor="red";
+var box11 = createSprite(125, 125, 50, 50);
+box11.shapeColor="blue";
+var box12 = createSprite(175, 125, 50, 50);
+box12.shapeColor="red";
+var box13 = createSprite(225, 125, 50, 50);
+box13.shapeColor="blue";
+var box14 = createSprite(275, 125, 50, 50);
+box14.shapeColor="red";
+var box15 = createSprite(325, 125, 50, 50);
+box15.shapeColor="blue";
+var box16 = createSprite(375, 125, 50, 50);
+box16.shapeColor="red";
 
 
 function draw() {
-  background("blue");
-if (gameState=="serve") {
-
-  textSize(20);
+  background("white");
+  
+  //display score
+  textSize(15);
   stroke("red");
-  text("welcome! press enter to start",13,25);
-  if (player.isTouching(ground)) {
-    player.velocityY=0
-  }
- if(keyDown("enter")){
-  gameState="play"}
-}
+  text("Score :"+score,330,20);
   
-   ;point.y=platform1.y-20
-   ;point1.y=platform2.y-20
-   ;point2.y=platform3.y-20
-  
- if (gameState=="play") {
-    
-  
-   
-  if (keyWentDown("space ")) {
-    player.y=player.y-40
-  }
- if (keyWentDown("p")) {
-   player.setAnimation("popo")
- }
-  if (keyWentUp("p")) {
-   player.setAnimation("pop")
- }
- 
-  if (keyWentDown("space")) {
-   player.y = player.y-30;
-   player.velocityY = 2;
- }
- 
-if (keyDown("enter")) {
-    platform1.velocityY=-5
-
-  }
-  if (keyDown("enter")) {
-    platform2.velocityY=+5
- 
-  }
-  if (keyDown("enter")) {
-    platform3.velocityY=-5
+  if(gameState == "serve")
+  {
+    textSize(25);
+    text("Welcome! Press Enter to start.",30,200);
+  if(  keyDown("enter")){
+      ball.velocityX=3
+      ball.velocityY=4
+      gameState="play"
+    }
     
   }
+   //Making the ball bounceOff the paddle and three sides of canvas
+  createEdgeSprites();
+  ball.bounceOff(rightEdge);
+  ball.bounceOff(leftEdge);
+  ball.bounceOff(topEdge);
+  ball.bounceOff(paddle);
+  if(gameState == "play")
+  {
+    paddle.x=World.mouseX
     
-  background("white")
- if (keyWentDown("space")) {
-   player.velocityY=3
- }
+  }
+  
+  if (ball.isTouching(bottomEdge)||score==16) {
+    gameState="end"
+  }
+  
+  if(gameState == "end")
+  {
+    ball.velocityY=0
+    ball.velocityX=0
+   
+      textSize(30)
+      text("gameover!",150,220)
+    }
+    
+  
+    
+    
+  
+  //Moving the ball on pressing enter key
+  if(keyDown("enter")){
+    ball.velocityX = 3;
+    ball.velocityY = 4;
+  }
+  
  
-  if (keyDown("right")) {
-    player.setAnimation("pop")
-    player.x=player.x+2
-  }
-  if (keyDown("left")) {
-    player.setAnimation("pop1")
-    player.x=player.x-2
-  }
-  if (player.isTouching(ground)) {
-    player.velocityY=0
-  }
-   if (player.isTouching(platform1)) {
-    player.y=platform1.y-30
-  }
-   if (player.isTouching(platform2)) {
-    player.y=platform2.y-30
-  }
-   if (player.isTouching(platform3)) {
-    player.y=platform3.y-30
+  
+  //Moving the paddle with mouse along the x-axis
+  paddle.x=World.mouseX;
+  
+  //destroy the boxes when ball touches them
+  if(ball.isTouching(box1))
+  {
+    score=score+1;
+    box1.destroy();
   }
   
-  if (platform1.isTouching(p)) {
-    platform1.velocityY=+5
-  }
-   if (platform1.isTouching(r)) {
-    platform1.velocityY=-5
-  }
-    if (platform2.isTouching(p1)) {
-    platform2.velocityY=+5
-  }
-   if (platform2.isTouching(r1)) {
-    platform2.velocityY=-5
-  }
-   if (platform3.isTouching(p2)) {
-    platform3.velocityY=+5
-  }
-   if (platform3.isTouching(r2)) {
-    platform3.velocityY=-5
+  if(ball.isTouching(box2))
+  {
+    score=score+1;
+    box2.destroy();
   }
   
-  if (player.isTouching(point)) {
-   playSound("assets/category_collect/collect_item_bling_1.mp3", false);
-   point.destroy()
-  }
-  if (player.isTouching(point1)) {
-   playSound("assets/category_collect/collect_item_bling_1.mp3", false);
-   point1.destroy()
-  }
-  if (player.isTouching(point2)) {
-   playSound("assets/category_collect/collect_item_bling_1.mp3", false);
-   point2.destroy()
-  }
-   
- }
-  if (player.isTouching(spike1)||
-      player.isTouching(spike2)||
-      player.isTouching(spike3)||
-      player.isTouching(spike4)||
-      player.isTouching(spike5)||
-      player.isTouching(spike6)||
-      player.isTouching(spike7)||
-      player.isTouching(spike8)||
-      player.isTouching(spike9))
- {player.velocityY=0
- player.velocityX=0
-       platform1.x=150
- platform2.x=230
- platform3.x=320
- gameState="end"
-   textSize(20)
-   fill("red")
-   text("gameover!",200,50)
-   
- }
-  if (player.isTouching(button)) {
-    button.setAnimation("1")
-    player.velocityY=0
-    player.velocityX=0
-    platform1.velocityY=0
-    platform2.velocityY=0
-    platform3.velocityY=0
-    textSize(20)
-    text("congratulation",50,240)
+  if(ball.isTouching(box3))
+  {
+    score=score+1;
+    box3.destroy();
   }
   
+  if(ball.isTouching(box4))
+  {
+    score=score+1;
+    box4.destroy();
+  }
   
+  if(ball.isTouching(box5))
+  {
+    score=score+1;
+    box5.destroy();
+  }
   
+  if(ball.isTouching(box6))
+  {
+    score=score+1;
+    box6.destroy();
+  }
   
+  if(ball.isTouching(box7))
+  {
+    score=score+1;
+    box7.destroy();
+  }
   
+  if(ball.isTouching(box8))
+  {
+    score=score+1;
+    box8.destroy();
+  }
   
+  if(ball.isTouching(box9))
+  {
+    score=score+1;
+    box9.destroy();
+  }
   
-  drawSprites()
+  if(ball.isTouching(box10))
+  {
+    score=score+1;
+    box10.destroy();
+  }
+  if(ball.isTouching(box11))
+  {
+    score=score+1;
+    box11.destroy();
+  }
+  if(ball.isTouching(box12))
+  {
+    score=score+1;
+    box12.destroy();
+  }
+  if(ball.isTouching(box13))
+  {
+    score=score+1;
+    box13.destroy();
+  }
+  if(ball.isTouching(box14))
+  {
+    score=score+1;
+    box14.destroy();
+  }
+  if(ball.isTouching(box15))
+  {
+    score=score+1;
+    box15.destroy();
+  }
+  if(ball.isTouching(box16))
+  {
+    score=score+1;
+    box16.destroy();
+  }
+  
+  drawSprites();
 }
 
 // -----
